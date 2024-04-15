@@ -20,6 +20,7 @@
 		31DBF4B22BCD6E34001EB78F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31DBF4B42BCD6E34001EB78F /* TestJson.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestJson.entitlements; sourceTree = "<group>"; };
 		31DBF4B62BCD6E34001EB78F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31DBF4BD2BCD6E52001EB78F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		31DBF4AD2BCD6E31001EB78F /* TestJson */ = {
 			isa = PBXGroup;
 			children = (
+				31DBF4BD2BCD6E52001EB78F /* Info.plist */,
 				31DBF4AE2BCD6E32001EB78F /* TestJsonApp.swift */,
 				31DBF4B02BCD6E32001EB78F /* ContentView.swift */,
 				31DBF4B22BCD6E34001EB78F /* Assets.xcassets */,
@@ -272,6 +274,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TestJson/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestJson/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -308,6 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TestJson/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestJson/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
